@@ -22,6 +22,14 @@ You can also specifiy just specific social networks. For example, just Twitter:
 s -t Posting this wonderful tweet from command line!
 ```
 
+## Install
+
+Grab the latest release from the [releases](https://github.com/dustinblackman/s/releases) page, or install directly from master.
+
+```bash
+go get github.com/dustinblackman/s
+```
+
 ## Configuration
 
 Configuration for social networks can be done by setting the required keys in your environment variables, but it's also possible to pass them in as parameters. See `s --help` for more details.
