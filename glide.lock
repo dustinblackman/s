@@ -1,0 +1,22 @@
+hash: dc7f033f0dfbedb8c6f24c4ef5254138155e9ce6f1af7cee7f733de5e496c9a2
+updated: 2016-08-26T23:19:31.598321222-04:00
+imports:
+- name: github.com/azr/backoff
+  version: 53511d3c733003985b0b76f733df1f4d0095ee6a
+- name: github.com/ChimeraCoder/anaconda
+  version: 00ecb7b4510497dc28cd46a598007ab8fe01f889
+- name: github.com/ChimeraCoder/tokenbucket
+  version: c5a927568de7aad8a58127d80bcd36ca4e71e454
+- name: github.com/dustin/go-jsonpointer
+  version: ba0abeacc3dcca5b9b20f31509c46794edbc9965
+- name: github.com/dustin/gojson
+  version: 2e71ec9dd5adce3b168cd0dbde03b5cc04951c30
+- name: github.com/garyburd/go-oauth
+  version: 719b069913e1151a73ea30d2ea4f90deda3ce234
+  subpackages:
+  - oauth
+- name: github.com/Sirupsen/logrus
+  version: 08a8a7c27e3d058a8989316a850daad1c10bf4ab
+- name: github.com/urfave/cli
+  version: 05fe449c81eb7305a34e9253c321c960a1c5e057
+devImports: []
