@@ -40,7 +40,7 @@ func verifyTwitterConfig(ctx *cli.Context) {
 	}
 }
 
-// processContext the context passed from CLI.
+// processContext parses the context passed from CLI.
 func processContext(ctx *cli.Context) error {
 	if len(ctx.Args()) == 0 {
 		log.Error("You need to write a message to update your status... Who would want to read nothing?")
