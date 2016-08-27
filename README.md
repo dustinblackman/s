@@ -24,10 +24,12 @@ s -t Posting this wonderful tweet from command line!
 
 ## Install
 
-Grab the latest release from the [releases](https://github.com/dustinblackman/s/releases) page, or install directly from master.
+Grab the latest release from the [releases](https://github.com/dustinblackman/s/releases) page, or install directly from master. S is currently built and tested against Go 1.7.
 
 ```bash
-go get github.com/dustinblackman/s
+git pull https://github.com/dustinblackman/s.git
+cd ./s
+make install
 ```
 
 ## Configuration
@@ -42,14 +44,4 @@ export TWITTER_CONSUMER_KEY=""
 export TWITTER_CONSUMER_SECRET=""
 export TWITTER_ACCESS_TOKEN=""
 export TWITTER_ACCESS_SECRET=""
-```
-
-## Install from source
-
-S is currently built and tested against Go 1.7.
-
-```
-git pull https://github.com/dustinblackman/s.git
-cd ./s
-make install
 ```
