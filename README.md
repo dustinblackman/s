@@ -45,3 +45,7 @@ export TWITTER_CONSUMER_SECRET=""
 export TWITTER_ACCESS_TOKEN=""
 export TWITTER_ACCESS_SECRET=""
 ```
+
+## Alfred Workflows
+
+Alfred workflows are available [here](./alfred-workflows/) which allows you to use S directly from Alfred. Due to S needing access to environment variables for configuration, there are two editions to the work flows for `bash` and `zsh`.
