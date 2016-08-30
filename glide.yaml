@@ -3,3 +3,4 @@ import:
 - package: github.com/urfave/cli
 - package: github.com/ChimeraCoder/anaconda
 - package: github.com/Sirupsen/logrus
+- package: github.com/huandu/facebook

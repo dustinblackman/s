@@ -1,13 +1,14 @@
 <p align="center">
 <img height="200" src="https://i.imgur.com/r4khD2u.png">
 <br />
-<a href="https://travis-ci.org/dustinblackman/s"><img src="https://img.shields.io/travis/dustinblackman/s.svg" alt="Build Status"></a> <a href="https://goreportcard.com/report/github.com/dustinblackman/s"><img src="https://goreportcard.com/badge/github.com/dustinblackman/s"></a>
+<a href="https://travis-ci.org/dustinblackman/s"><img src="https://img.shields.io/travis/dustinblackman/s.svg" alt="Build Status"></a> <a href="https://goreportcard.com/report/github.com/dustinblackman/s"><img src="https://goreportcard.com/badge/github.com/dustinblackman/s"></a><img src="https://img.shields.io/github/release/dustinblackman/s.svg?maxAge=2592000">
 </p>
 
 <p align="center">A simple command line utility for posting to social networks.</p>
 
 __Currently Supported:__
 - Twitter
+- Facebook
 
 ## Usage
 Without any parameters, S will post to all social networks with available configs.
@@ -39,11 +40,22 @@ Configuration for social networks can be done by setting the required keys in yo
 __Twitter:__
 
 Creating a twitter application can be done [here](https://apps.twitter.com/app/new). You can then generate keys and save them in your environment variables.
+
 ```bash
 export TWITTER_CONSUMER_KEY=""
 export TWITTER_CONSUMER_SECRET=""
 export TWITTER_ACCESS_TOKEN=""
 export TWITTER_ACCESS_SECRET=""
+```
+
+__Facebook:__
+
+Create an application on Facebook [here](https://developers.facebook.com/docs/apps/register). Afterwards use the [Graph explorer](https://developers.facebook.com/docs/apps/register) to create a user access token that has the `publish_actions` scope. You can extend the life of the key by clicking the `I` next to the token to open the access token tools.
+
+```bash
+export FACEBOOK_APP_KEY=""
+export FACEBOOK_APP_SECRET=""
+export FACEBOOK_USER_TOKEN=""
 ```
 
 ## Alfred Workflows
