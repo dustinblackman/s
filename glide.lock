@@ -1,5 +1,5 @@
-hash: dc7f033f0dfbedb8c6f24c4ef5254138155e9ce6f1af7cee7f733de5e496c9a2
-updated: 2016-08-26T23:19:31.598321222-04:00
+hash: c4150b8f03ae74be7ea6e81b671abbe83046bd4fa8f477783b3969614c351673
+updated: 2016-08-29T18:28:58.234558663-04:00
 imports:
 - name: github.com/azr/backoff
   version: 53511d3c733003985b0b76f733df1f4d0095ee6a
@@ -15,8 +15,14 @@ imports:
   version: 719b069913e1151a73ea30d2ea4f90deda3ce234
   subpackages:
   - oauth
+- name: github.com/huandu/facebook
+  version: 24ce8d1913aaad265ff4cb4af6a1d1b1801d3021
 - name: github.com/Sirupsen/logrus
   version: 08a8a7c27e3d058a8989316a850daad1c10bf4ab
 - name: github.com/urfave/cli
   version: 05fe449c81eb7305a34e9253c321c960a1c5e057
+- name: golang.org/x/sys
+  version: a646d33e2ee3172a661fc09bca23bb4889a41bc8
+  subpackages:
+  - unix
 devImports: []
