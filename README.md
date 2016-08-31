@@ -17,7 +17,7 @@ Without any parameters, S will post to all social networks with available config
 s Going out for poutine.
 ```
 
-You can also specifiy just specific social networks. For example, just Twitter:
+You can also specifiy just a single social network. For example, just Twitter:
 
 ```bash
 s -t Posting this wonderful tweet from command line!
@@ -25,7 +25,7 @@ s -t Posting this wonderful tweet from command line!
 
 ## Install
 
-Grab the latest release from the [releases](https://github.com/dustinblackman/s/releases) page, or install directly from master. S is currently built and tested against Go 1.7.
+Grab the latest release from the [releases](https://github.com/dustinblackman/s/releases) page, or build from source and install directly from master. S is currently built and tested against Go 1.7.
 
 ```bash
 git pull https://github.com/dustinblackman/s.git

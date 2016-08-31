@@ -15,7 +15,7 @@ var (
 	version = "HEAD"
 )
 
-// SCtx holds the context for the current exeuction
+// SCtx holds the context for the current execution
 type SCtx struct {
 	ctx     *cli.Context
 	message string
