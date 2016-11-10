@@ -50,7 +50,7 @@ export TWITTER_ACCESS_SECRET=""
 
 __Facebook:__
 
-Create an application on Facebook [here](https://developers.facebook.com/docs/apps/register). Afterwards use the [Graph explorer](https://developers.facebook.com/docs/apps/register) to create a user access token that has the `publish_actions` scope. You can extend the life of the key by clicking the `I` next to the token to open the access token tools.
+Create an application on Facebook [here](https://developers.facebook.com/docs/apps/register). Afterwards use the [Graph explorer](https://developers.facebook.com/tools/explorer/) to create a user access token that has the `publish_actions` scope. You can extend the life of the key by clicking the `I` next to the token to open the access token tools.
 
 ```bash
 export FACEBOOK_APP_KEY=""
